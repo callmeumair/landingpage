@@ -1,0 +1,87 @@
+<script>
+  // Example: Props or logic to manage interactive elements
+  let activeSection = "";
+</script>
+
+<style>
+  /* Example: Styling for the landing page */
+  .hero {
+    background: url('https://d3phaj0sisr2ct.cloudfront.net/site/videos/homepage/frames-hero-04.webp') no-repeat center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+  }
+  .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent, black);
+    opacity: 0.2;
+  }
+  .cta {
+    background: white;
+    color: black;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background 0.3s;
+  }
+  .cta:hover {
+    background: black;
+    color: white;
+  }
+</style>
+
+<section class="hero">
+  <div class="gradient-overlay"></div>
+  <div class="content">
+    <h1>Frames</h1>
+    <p>Our new base image model offering unprecedented stylistic control.</p>
+    <a href="https://app.runwayml.com/" class="cta">Try Runway Now</a>
+  </div>
+</section>
+
+<section>
+  <div>
+    <h2>Advancing Creativity</h2>
+    <p>Runway is an applied research company shaping the next era of art, entertainment, and human creativity.</p>
+    <a href="/product" class="cta">Our Tools</a>
+  </div>
+</section>
+
+<section>
+  <h3>News</h3>
+  <div>
+    <article>
+      <img src="https://d3phaj0sisr2ct.cloudfront.net/site/content/images/rw-talent-network-thumb-v1.png" alt="Global Talent Network">
+      <h4>Runway Launches Global Talent Network</h4>
+      <p>December 18, 2024</p>
+    </article>
+    <article>
+      <img src="https://d3phaj0sisr2ct.cloudfront.net/site/images/news/rw-post-thumbnail-001.jpg" alt="Lionsgate Partnership">
+      <h4>Runway Partners with Lionsgate</h4>
+      <p>September 18, 2024</p>
+    </article>
+  </div>
+</section>
+
+<section>
+  <h3>For anyone with a story to tell</h3>
+  <video autoplay loop muted poster="https://d3phaj0sisr2ct.cloudfront.net/site/videos/homepage/Homepage_006.webp">
+    <source src="https://d3phaj0sisr2ct.cloudfront.net/site/videos/homepage/Homepage_006.mp4" type="video/mp4">
+  </video>
+</section>
+
+<section>
+  <h2>How the world’s top creatives are using Runway</h2>
+  <article>
+    <img src="https://d3phaj0sisr2ct.cloudfront.net/site/images/customers/03b.jpg" alt="Madonna Tour">
+    <h4>Generating new worlds for Madonna's Celebration Tour</h4>
+  </article>
+</section>

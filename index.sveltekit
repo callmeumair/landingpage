@@ -1,5 +1,4 @@
 <script>
-  // Example: Props or logic to manage interactive elements
   let activeSection = "";
 </script>
 

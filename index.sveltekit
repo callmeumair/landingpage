@@ -4,7 +4,6 @@
 </script>
 
 <style>
-  /* Example: Styling for the landing page */
   .hero {
     background: url('https://d3phaj0sisr2ct.cloudfront.net/site/videos/homepage/frames-hero-04.webp') no-repeat center;
     background-size: cover;
